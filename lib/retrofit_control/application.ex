@@ -4,7 +4,7 @@ defmodule RetrofitControl.Application do
   @impl true
   def start(_type, _args) do
     children = [
-      {Plug.Cowboy, scheme: :http, plug: RetrofitControl.Router, options: [port: port()]}
+      {Bandit, plug: RetrofitControl.Router, port: port()}
     ]
 
     Supervisor.start_link(children, strategy: :one_for_one, name: RetrofitControl.Supervisor)
