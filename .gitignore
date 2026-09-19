@@ -16,3 +16,7 @@ __pycache__/
 /_build/
 /deps/
 *.ez
+
+# 运行期事件日志与快照（不入库）
+/data/
+!/data/.gitkeep
