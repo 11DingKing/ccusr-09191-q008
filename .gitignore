@@ -15,4 +15,5 @@ __pycache__/
 /.runs/
 /_build/
 /deps/
+/data/
 *.ez
