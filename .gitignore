@@ -13,3 +13,6 @@ __pycache__/
 /A/
 /B/
 /.runs/
+/_build/
+/deps/
+*.ez
